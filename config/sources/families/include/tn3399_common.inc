@@ -106,7 +106,7 @@ case $BRANCH in
 	current)
 
 	
-		KERNELBRANCH="branch:linux-5.8.y"
+		KERNELBRANCH="branch:linux-5.15.y"
 		LINUXFAMILY=tn3399
 		LINUXCONFIG='linux-tn3399-'$BRANCH
 

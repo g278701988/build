@@ -656,7 +656,7 @@ index 000000000..372261fb2
 +	status = "okay";
 +
 +	brcmf: wifi@1 {
-+		compatible = "brcm,bcm4329-fmac";
++		compatible = "brcm,bcm4345-fmac";
 +		reg = <1>;
 +		pinctrl-names = "default";
 +		pinctrl-0 = <&wifi_host_wake_l>;
@@ -712,7 +712,7 @@ index 000000000..372261fb2
 +	status = "disabled";
 +
 +	bluetooth {
-+		compatible = "brcm,bcm43438-bt";
++		compatible = "brcm,bcm43455-bt";
 +		clocks = <&rk808 1>;
 +		clock-names = "ext_clock";
 +		device-wakeup-gpios = <&gpio2 RK_PD2 GPIO_ACTIVE_HIGH>;
